@@ -1,0 +1,3 @@
+version=4
+opts="mode=git,repack,repacksuffix=+dfsg,dversionmangle=s/+dfsg//,compression=xz" \
+https://github.com/javaparser/javaparser refs/tags/javaparser(?:-parent)?-([\d\.]+)

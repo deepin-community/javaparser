@@ -1,0 +1,9 @@
+pom.xml --no-parent
+javaparser-core/pom.xml --has-package-version --java-lib
+javaparser-core-generators/pom.xml --ignore
+javaparser-core-metamodel-generator/pom.xml --ignore
+javaparser-core-serialization/pom.xml --ignore
+javaparser-core-testing/pom.xml --ignore
+javaparser-core-testing-bdd/pom.xml --ignore
+javaparser-symbol-solver-core/pom.xml --ignore
+javaparser-symbol-solver-testing/pom.xml --ignore
