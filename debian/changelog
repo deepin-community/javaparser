@@ -1,5 +1,62 @@
-template-repository (1.0-1) unstable; urgency=medium
+javaparser (3.25.10+dfsg-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * New upstream version 3.25.10+dfsg
+  * Refreshing patches
+  * Raising Standards version to 4.7.0 (no change)
+  * Repacking with +dfsg suffix
+  * Changing the Maven coordinates of javacc in a patch instead of the
+    d/maven.rules mechanism
+  * Ignoring the jacoco plugin during the build
+  * Set upstream metadata fields: Repository-Browse.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Pierre Gruet <pgt@debian.org>  Wed, 24 Apr 2024 22:05:32 +0200
+
+javaparser (3.16.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Removing repeated @Deprecated annotations in generated sources
+    (Closes: #1011814)
+  * Raising d/watch version to 4
+  * Marking the binary package as Multi-arch: foreign
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Pierre Gruet <pgt@debian.org>  Wed, 07 Sep 2022 06:59:57 +0200
+
+javaparser (3.16.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release (Closes: 901371)
+    - Depend on javacc (>= 6.0)
+    - New dependency on libtemplating-maven-plugin-java
+  * Standards-Version updated to 4.6.1
+  * Switch to debhelper level 13
+  * Removed the -java-doc package
+  * Use salsa.debian.org Vcs-* URLs
+  * Remove the jar files from the upstream tarball
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 16 May 2022 08:16:36 +0200
+
+javaparser (1.0.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Build with maven-debian-helper instead of javahelper
+  * Standards-Version updated to 4.0.0
+  * Switch to debhelper level 10
+  * Use secure Vcs-* URLs
+  * Updated the Homepage field
+  * Track and download the new releases from GitHub
+  * Updated the Format URI in debian/copyright
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 03 Jul 2017 10:40:15 +0200
+
+javaparser (1.0.8-1) unstable; urgency=low
+
+  * Initial release. (Closes: #711109)
+
+ -- Benjamin Mesing <ben@debian.org>  Wed, 23 Oct 2013 21:14:08 +0200

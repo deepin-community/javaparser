@@ -1,0 +1,6 @@
+
+biz.aQute.bnd bnd-maven-plugin
+org.apache.maven.plugins maven-jar-plugin
+org.apache.maven.plugins maven-source-plugin
+org.codehaus.mojo extra-enforcer-rules
+org.jacoco jacoco-maven-plugin * * * *

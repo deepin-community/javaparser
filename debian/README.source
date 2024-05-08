@@ -1,0 +1,9 @@
+This package uses a version control system as described in
+http://wiki.debian.org/Java/JavaVcs and the pages linked from there.
+
+It contains the upstream source within the VCS upstream branch.
+Upstream versions are tagged as upstream/<version>.
+
+The original tarball was repackaged, because it was distributed in there
+zip format. Use debian/rules get-orig-source to repeat the repackaging.
+
